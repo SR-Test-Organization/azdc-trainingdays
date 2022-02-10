@@ -3,7 +3,7 @@ name: day4-scm-fe
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/frontend/**
       - day4/apps/frontend/scmfe/**
@@ -11,7 +11,7 @@ on:
 
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/frontend/**
       - day4/apps/frontend/scmfe/**

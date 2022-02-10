@@ -3,7 +3,7 @@ name: day4-scm-searchapi
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/search/**
       - day4/apps/dotnetcore/Scm.Search/**
@@ -11,7 +11,7 @@ on:
 
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/search/**
       - day4/apps/dotnetcore/Scm.Search/**

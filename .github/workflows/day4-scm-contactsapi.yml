@@ -3,14 +3,14 @@ name: day4-scm-contactsapi
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/contacts/**
       - day4/apps/dotnetcore/scm/**
       - .github/workflows/day4-scm-contactsapi.yml
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/contacts/**
       - day4/apps/dotnetcore/scm/**

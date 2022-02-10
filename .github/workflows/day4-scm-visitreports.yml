@@ -3,7 +3,7 @@ name: day4-scm-vistreportsapi
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/visitreports/**
       - day4/apps/nodejs/visitreport/**
@@ -12,7 +12,7 @@ on:
 
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - day4/apps/infrastructure/bicep/visitreports/**
       - day4/apps/nodejs/visitreport/**

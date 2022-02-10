@@ -201,7 +201,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy SCM Resources API
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@5604db51d3acdc1c02fbce03d20651a8ba8fad44
         with:
           app-name: ${{ needs.deploy-infrastructure-to-dev.outputs.resourceApiWebAppName }}
           package: ./${{ env.API_PACKAGE_NAME }}
